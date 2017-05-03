@@ -1,4 +1,4 @@
-# PSSPred
+# WgetWorker
 
-Docker container image made to run on the Nerdalize platform.
+Simplest possible Docker Container image that can run on the Nerdalize platform.
 
