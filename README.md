@@ -20,7 +20,7 @@ $ docker run wgetworker www.nerdalize.com
 
 ## Building your own image for the Nerdalize platform
 
-If you're building your own Docker image for the Nerdalize platform, the only thing you need to take care about is making sure that the finished Docker image takes one argument which is the 'task' to be done. That's what you see here.
+If you're building your own Docker image for the Nerdalize platform, the only thing you need to take care about is making sure that the finished Docker image takes one argument which is the 'task' to be done, runs that one task and then exits. That's what you see here.
 
 In this example we pass it the URL of a website, but you could use it to pass it an URL and some arguments for a video you would like to transcode. Or, for example, a piece of (raw) human-genome sequence you would like to do protein-folding on. See our example [here](https://github.com/nerdalize/psspred). 
 
