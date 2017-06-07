@@ -7,4 +7,4 @@ if [ -z "$1" ]
   exit 0
 fi
 
-wget $1
+wget $1 --directory-prefix=/output
