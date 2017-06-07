@@ -7,15 +7,19 @@ This image serves to prove it's really, really simple to make an image ready for
 ## Usage
 
 With the pre-built image:
+
 ```
 docker run nerdalize/wgetworker www.nerdalize.com
+
 ```
 
 Build and run it yourself:
+
 ```
 $ git clone https://github.com/nerdalize/wgetworker.git
 $ docker build -t wgetworker .
 $ docker run wgetworker www.nerdalize.com
+
 ```
 
 ## Building your own image for the Nerdalize platform
