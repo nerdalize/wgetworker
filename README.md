@@ -17,6 +17,7 @@ Build and run it yourself:
 
 ```
 $ git clone https://github.com/nerdalize/wgetworker.git
+$ cd wgetworker
 $ docker build -t wgetworker .
 $ docker run wgetworker www.nerdalize.com
 
